@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		882D22F12721A5C10027213A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D22F02721A5C10027213A /* main.swift */; };
+		882D22F82722BFF10027213A /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D22F72722BFF10027213A /* utils.swift */; };
+		882D22FA2722C00D0027213A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D22F92722C00D0027213A /* Todo.swift */; };
+		882D22FC272413D20027213A /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D22FB272413D20027213A /* Lists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		882D22ED2721A5C10027213A /* Tuwaiq_project_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tuwaiq_project_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		882D22F02721A5C10027213A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		882D22F72722BFF10027213A /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		882D22F92722C00D0027213A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		882D22FB272413D20027213A /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 		882D22EF2721A5C10027213A /* Tuwaiq_project_1 */ = {
 			isa = PBXGroup;
 			children = (
+				882D22FB272413D20027213A /* Lists.swift */,
+				882D22F92722C00D0027213A /* Todo.swift */,
 				882D22F02721A5C10027213A /* main.swift */,
+				882D22F72722BFF10027213A /* utils.swift */,
 			);
 			path = Tuwaiq_project_1;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				882D22F12721A5C10027213A /* main.swift in Sources */,
+				882D22FC272413D20027213A /* Lists.swift in Sources */,
+				882D22FA2722C00D0027213A /* Todo.swift in Sources */,
+				882D22F82722BFF10027213A /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
